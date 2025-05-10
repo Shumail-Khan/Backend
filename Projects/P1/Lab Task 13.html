@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+			h3
+			{
+				margin:0px;
+				color:#e72020;
+				text-decoration:underline;
+			}
+			p
+			{
+				margin:0px;
+				color:#e72020;
+				text-decoration:underline;
+				text-align:justify;
+			}
+			.box{
+				float:left;
+				width:560px;
+				margin:50px;
+			}
+			.box2{
+				float:left;
+				width:560px;
+				margin-left:250px;
+				margin-top:unset;
+				margin-bottom:unset;
+				 }
+				hr{	
+					margin:unset;
+					margin-right: 20px;
+					margin-left: 20px;
+					border-color:rgb(247 247 247 / 86%);
+				}
+		</style>
+	</head>
+	<body style="background-color: rgb(247 247 247 / 86%);">
+		<div style="background-color: rgb(255 255 255);border:1px solid white;border-radius: 12px;height:600px;width:865px;">
+			<div>
+				<h4 style="float:left;margin:55px;color:#e72020;text-decoration:underline;text-align:justify;">10th October 2005<br>By Enrique Ramirez</h4>
+			</div>
+			<div class="box" style="border:1px solid red;margin-left: unset;">
+				<h3>This be the title</h3>
+				<p>This is sample item wrapping everything inside an anchor tag. All inner anchor tags have been removed. Looks as if the browser renders everything inside the anchor tag as inline. It also seems to get everythin after the header tag is closed outside the li element itself. No block link is supported (not even with display: block; on the anchor tag).</p>
+			</div>
+			<hr/>
+			<div class="box"style="border:1px solid blue;margin-left:250px;">
+				<h3>This be the title</h3>
+				<p>10th October 2005<br>By Enrique Ramirez<br>Next we remove every single HTML5 tag AND the div tag within the anchor element.<br>This time, everything works as expected.</p>
+			</div>
+			<div class='box' style="width: 100%;margin: unset;"><hr/></div>
+			<div class="box" style="border:1px solid green;margin-left:250px;margin-bottom:unset;">
+				<h3>This be the title</h3>
+				<p>10th October 2005<br>By Enrique Ramirez</p>
+			</div>
+			<div class="box2" style="border:1px solid green;">
+				<p>Exact same code as above but with a</p>
+			</div>
+			<div class="box2" style="border:1px solid white">
+				<p style="display:inline;">nested hyperlink</p>
+				<p style="all:revert;display:inline;font-weight:bold;"> inside the paragraph tag. This time, the block level anchor breaks again.</p>
+			</div>
+		</div>
+	</body>
+</html>

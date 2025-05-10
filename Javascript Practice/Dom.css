@@ -1,0 +1,17 @@
+/* .box{
+    height: 200px;
+    width:200px;
+    border: 1px dotted black;
+    margin: 5px;
+
+} */
+
+.myclass {
+    color: aqua;
+    background-color: rgb(30, 59, 59);
+}
+.newclass
+{
+    size: 10px;
+    text-decoration: line-through;
+}

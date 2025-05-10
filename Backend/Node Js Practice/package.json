@@ -1,0 +1,20 @@
+{
+  "name": "node-js-practice",
+  "version": "1.0.0",
+  "main": "scrip.js",
+  "scripts": {
+    "start": "node script2.js",
+    "scrip1": "echo \"This is A Message in Json File\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shumail Khan",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "accessibility": "^3.0.9",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

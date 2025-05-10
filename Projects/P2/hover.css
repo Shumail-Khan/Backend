@@ -1,0 +1,16 @@
+.bar1:hover{
+			background-color:black;
+			color:whitesmoke;
+	}
+.bar2:hover{
+			background-color:black;
+			color:whitesmoke;
+			border-radius: 15px;
+	}
+.bar3:hover{
+			border-bottom:inset;
+			border-bottom-color:black;
+	}
+.bar4:hover{
+			color:lightgreen;
+	}
